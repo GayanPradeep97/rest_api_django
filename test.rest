@@ -1,0 +1,21 @@
+POST http://127.0.0.1:8000/login
+Content-Type: application/json
+
+{"username": "gayan","password":"Test_1user"}
+
+###
+
+
+POST http://127.0.0.1:8000/signup
+Content-Type: application/json
+
+{"username": "gayan1","password":"Test_1user", "email":"gayan@codelantic.com"}
+
+###
+
+GET http://127.0.0.1:8000/test_token
+Content-Type: application/json
+Authorization: Token 594273867bb0add731f97bfa830ffee57d9fd2c2
+
+###
+
